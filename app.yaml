@@ -1,0 +1,8 @@
+# app.yaml
+command: ["streamlit", "run", "app.py"]
+
+env:
+  - name: GENIE_SPACE_ID
+    valueFrom: genie-space
+  - name: SQL_WAREHOUSE_ID
+    valueFrom: sql-warehouse
