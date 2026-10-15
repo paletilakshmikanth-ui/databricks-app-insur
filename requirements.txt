@@ -1,4 +1,0 @@
-streamlit>=1.38
-databricks-sdk>=0.30
-pandas>=2.0
-plotly>=5.20
